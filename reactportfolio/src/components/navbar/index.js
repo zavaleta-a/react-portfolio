@@ -16,6 +16,25 @@ function NavBar() {
       >
         <i class="fas fa-bars fa-lg"></i>
       </button>
+      <div
+        className="collapse navbar-collapse justify-content-center"
+        id="navbarNavMenu"
+      >
+        <ul className="navbar-nav">
+          <li className="nav-item navbar-text">
+            <Link
+              to="projects"
+              className="nav-link"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+            >
+              Projects
+            </Link>
+          </li>
+          
+        </ul>
+      </div>
     </nav>
   );
 }
