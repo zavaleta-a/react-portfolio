@@ -1,0 +1,61 @@
+html {
+  height: auto;
+  background-color: whitesmoke;
+  font-family: sans-serif;
+}
+
+.row {
+  width: 100%;
+  margin: auto;
+}
+
+.col-md {
+  width: 100%;
+  padding: 0;
+}
+
+.title-text {
+  font-family: sans-serif;
+  font-size: 50px;
+}
+
+.alignCenter {
+  text-align: center;
+  margin-top: 5vh;
+  padding: 2px;
+}
+
+.intro {
+  font-family: sans-serif;
+  width: 100%;
+  margin: auto;
+}
+
+.readMore {
+  background-color: whitesmoke;
+  color: darkslategray;
+  border: darkslategray solid 2px;
+  border-radius: 1px;
+  font-family: sans-serif;
+}
+
+.readMore:hover {
+  background-color: black;
+  color: #f5f5f5;
+}
+
+@media (max-width: 767px) {
+  .col-md {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .title-text {
+    display: block;
+  }
+
+  .alignCenter {
+    margin-top: 20vh;
+    margin-bottom: 19vh;
+  }
+}
