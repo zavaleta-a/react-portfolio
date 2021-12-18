@@ -32,9 +32,21 @@ function NavBar() {
               Projects
             </Link>
           </li>
-          
+          <li className="nav-item navbar-text">
+            <Link
+              to="about"
+              className="nav-link"
+              activeClass="active"
+              spy={true}
+              smooth={true}
+            >
+              About
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
   );
 }
+
+export default NavBar;

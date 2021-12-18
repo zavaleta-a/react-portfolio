@@ -1,5 +1,5 @@
 import React from "react";
-// import ContactForm from ""; // link contact form
+import Links from "../../components/links";
 import "./style.css";
 
 function Contact() {
@@ -11,20 +11,7 @@ function Contact() {
             Contact Me
           </h2>
           <div className="email">azavaleta07@gmail.com</div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-sm" />
-        <div className="col-sm text-center">
-          <a href="https://github.com/zavaleta-a" target="_blank">
-            <i class="fab fa-github-square fa-3x" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/alfredo-zavaleta-04978835"
-            target="_blank"
-          >
-            <i class="fab fa-linkedin fa-3x" />{" "}
-          </a>
+          <Links />
         </div>
       </div>
     </div>

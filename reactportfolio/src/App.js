@@ -26,7 +26,8 @@
 
 import React from "react";
 import "./App.css";
-// import Main from "./views/Main";
+import NavBar from "./components/navbar";
+import Main from "../src/views/main";
 // import Projects from "./views/Projects";
 // import Resume from "./views/Resume";
 import About from "./views/about";
@@ -37,8 +38,8 @@ function App() {
     <div className="App">
       <div className="wrapper">
         {/* <NavBar /> */}
-        {/* <Main />
-        <Projects /> */}
+        <Main />
+        {/* <Projects /> */}
         <About />
         {/* <Resume /> */}
         <Contact />

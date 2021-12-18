@@ -1,0 +1,8 @@
+.navbar {
+    background: transparent;
+    z-index: 50;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
