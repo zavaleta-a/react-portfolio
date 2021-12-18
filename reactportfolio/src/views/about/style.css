@@ -1,0 +1,28 @@
+.about-left {
+  background-color: #338aad;
+  text-align: center;
+}
+#aboutTitle {
+  padding-bottom: 2vh;
+}
+
+.bio {
+  text-align: center;
+  padding: 5px;
+  width: 75%;
+  margin: auto;
+}
+
+.skills {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.skillList {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.skill {
+  list-style-type: none;
+}
