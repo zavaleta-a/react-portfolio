@@ -1,0 +1,7 @@
+.viewFive {
+  width: 100%;
+}
+
+/* make sure to style the form once added */
+
+@media only screen and (max-width: 540px);
