@@ -30,7 +30,7 @@ import "./App.css";
 // import Projects from "./views/Projects";
 // import Resume from "./views/Resume";
 import About from "./views/about";
-// import Contact from "./views/Contact";
+import Contact from "./views/contact";
 
 function App() {
   return (
@@ -40,8 +40,8 @@ function App() {
         {/* <Main />
         <Projects /> */}
         <About />
-        {/* <Resume />
-        <Contact /> */}
+        {/* <Resume /> */}
+        <Contact />
       </div>
     </div>
   );
